@@ -1,0 +1,40 @@
+.page-header {
+    min-height: 88px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #D9FFF5;
+}
+
+.page-header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.page-header__button {
+    flex-shrink: 0;
+}
+
+.page-header__button:not(:last-of-type) {
+    margin-right: 16px;
+}
+
+.page-header__logo {
+    margin-right: auto;
+}
+
+.page-header__hr {
+    width: 2px;
+    height: 32px;
+    margin: 0 20px;
+
+    border:none;
+    border-left: 2px solid #EAEAEA;
+    border-radius: 1px;
+}
+
+@media (min-width: 768px) {
+    .page-header__button:first-of-type,
+    .page-header__button:nth-last-of-type(3) {
+        margin: 0;
+    }
+}

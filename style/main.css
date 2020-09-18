@@ -1,0 +1,53 @@
+@import url('normalize.css') screen;
+@import url('content-wrapper/content-wrapper.css') screen;
+@import url('page-header/page-header.css') screen;
+@import url('icon/icon.css') screen;
+@import url('button/button.css') screen;
+@import url('more-button/more-button.css') screen;
+@import url('logo/logo.css') screen;
+@import url('page-content/page-content.css') screen;
+@import url('page-content-header/page-content-header.css') screen;
+@import url('slide-menu/slide-menu.css') screen;
+@import url('about-company/about-company.css') screen;
+@import url('dislpay/display.css') screen;
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/TTLakes-Regular.eot'),
+        url('../fonts/TTLakes-Regular.ttf'), 
+        url('../fonts/TTLakes-Regular.woff');
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/TTLakes-Medium.eot'),
+        url('../fonts/TTLakes-Medium.ttf'), 
+        url('../fonts/TTLakes-Medium.woff');
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/TTLakes-Bold.eot'),
+        url('../fonts/TTLakes-Bold.ttf'), 
+        url('../fonts/TTLakes-Bold.woff');
+}
+
+body {
+    font-family: 'TT Lakes', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    min-width: 320px;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}

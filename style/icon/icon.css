@@ -1,0 +1,34 @@
+.icon {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon--menu {
+  background-image: url('../../img/icons/menu.svg');
+}
+
+.icon--phone {
+  background-image: url('../../img/icons/phone.svg');
+}
+
+.icon--message {
+  background-image: url('../../img/icons/message.svg');
+}
+
+.icon--people {
+  background-image: url('../../img/icons/people.svg');
+}
+
+.icon--order {
+  background-image: url('../../img/icons/order.svg');
+}
+
+.icon--status {
+  background-image: url('../../img/icons/status.svg');
+}
+
+.icon--more {
+  background-image: url('../../img/icons/more.svg');
+}
