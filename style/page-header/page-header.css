@@ -18,10 +18,6 @@
     margin-right: 16px;
 }
 
-.page-header__additional {
-    display: none;
-}
-
 .page-header__logo {
     margin-right: auto;
 }
@@ -37,11 +33,8 @@
 }
 
 @media (min-width: 768px) {
-    .page-header__additional {
-        display: block;
-    }
-
-    .page-header__button:first-of-type {
+    .page-header__button:first-of-type,
+    .page-header__button:nth-last-of-type(3) {
         margin: 0;
     }
 }

@@ -1,78 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SCP</title>
     <link rel="stylesheet" href="style/main.css">
 </head>
-
 <body>
-    <div class="container">
-        <header class="page-header">
-            <div class="content-wrapper">
-                <div class="page-header__inner">
-                    <button class="button page-header__button">
-                        <div class="icon icon--menu"></div>
-                    </button>
-                    <hr class="page-header__hr page-header__additional">
-                    <a href="/" class="logo page-header__logo">
-                        <img src="img/logo.svg" class="logo__image" alt="">
-                    </a>
-                    <button class="button page-header__button page-header__additional">
-                        <div class="icon icon--phone"></div>
-                    </button>
-                    <button class="button page-header__button page-header__additional">
-                        <div class="icon icon--message"></div>
-                    </button>
-                    <button class="button page-header__button page-header__additional">
-                        <div class="icon icon--people"></div>
-                    </button>
-                    <hr class="page-header__hr">
-                    <button class="button page-header__button">
-                        <div class="icon icon--order"></div>
-                    </button>
-                    <button class="button page-header__button">
-                        <div class="icon icon--status"></div>
-                    </button>
-                </div>
+    <header class="page-header display--none--xl">
+        <div class="content-wrapper">
+            <div class="page-header__inner">
+                <button type="button" class="button page-header__button" aria-label="Меню">
+                    <div class="button_icon icon icon--menu"></div>
+                </button>
+                <hr class="page-header__hr display--none display--block--md">
+                <a href="/" class="logo page-header__logo">
+                    <img src="img/logo.svg" class="logo__image" alt="">
+                </a>
+                <button type="button" class="button page-header__button display--none display--block--md" aria-label="Заказать звонок">
+                    <div class="button_icon icon icon--phone"></div>
+                </button>
+                <button type="button" class="button page-header__button display--none display--block--md" aria-label="Обратная связь">
+                    <div class="button_icon icon icon--message"></div>
+                </button>
+                <button type="button" class="button page-header__button display--none display--block--md" aria-label="Личный кабинет">
+                    <div class="button_icon icon icon--people"></div>
+                </button>
+                <hr class="page-header__hr">
+                <button type="button" class="button page-header__button" aria-label="Оставить заявку">
+                    <div class="button_icon icon icon--order"></div>
+                </button>
+                <button type="button" class="button page-header__button" aria-label="Статус ремонта">
+                    <div class="button_icon icon icon--status"></div>
+                </button>
             </div>
-        </header>
-        <main class="page-content">
-            <div class="content-wrapper">
-                <h1 class="page-content__title">Услуги и сервисы</h1>
-                <nav class="slide-menu page-content__slide-menu">
-                    <ul class="slide-menu__inner">
-                        <li class="slide-menu__item slide-menu__item--active"><a href="/"
-                                class="slide-menu__link">Ремонтируемые бренды</a></li>
-                        <li class="slide-menu__item"><a href="/" class="slide-menu__link">Ремонтируемые устройства</a>
-                        </li>
-                        <li class="slide-menu__item"><a href="/" class="slide-menu__link">Цены на услуги</a></li>
-                        <li class="slide-menu__item"><a href="/" class="slide-menu__link">Адреса сервисных центров</a>
-                        </li>
-                        <li class="slide-menu__item"><a href="/" class="slide-menu__link">Специальные цены</a></li>
-                        <li class="slide-menu__item"><a href="/" class="slide-menu__link">Отзывы</a></li>
-                    </ul>
-                </nav>
-                <section class="about">
-                    <div class="about__description">
-                        <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
-                            отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+        </div>
+    </header>
+    <main class="page-content">
+        <div class="content-wrapper">
+            <header class="page-content-header">
+                <h1 class="page-content-header__title">Услуги и сервисы</h1>
+                <button type="button" class="button page-content-header__button display--none display--block--xl">
+                    <span>Оставить заявку</span> 
+                    <div class="button_icon icon icon--order"></div>
+                </button>
+                <button type="button" class="button page-content-header__button display--none display--block--xl">
+                    <span>Статус ремонта</span>
+                    <div class="button_icon icon icon--status"></div>
+                </button>
+            </header>
+            <nav class="slide-menu page-content__slide-menu">
+                <ul class="slide-menu__inner">
+                    <li class="slide-menu__item slide-menu__item--active"><a href="/"
+                            class="slide-menu__link">Ремонтируемые бренды</a></li>
+                    <li class="slide-menu__item"><a href="/" class="slide-menu__link">Ремонтируемые устройства</a>
+                    </li>
+                    <li class="slide-menu__item"><a href="/" class="slide-menu__link">Цены на услуги</a></li>
+                    <li class="slide-menu__item"><a href="/" class="slide-menu__link">Адреса сервисных центров</a>
+                    </li>
+                    <li class="slide-menu__item"><a href="/" class="slide-menu__link">Специальные цены</a></li>
+                    <li class="slide-menu__item"><a href="/" class="slide-menu__link">Отзывы</a></li>
+                </ul>
+            </nav>
+            <section class="about-company">
+                <div class="about-company__description">
+                    <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+                        отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                    <div id="hidden-about-company" class="display--none">
                         <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает
                             большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
                             рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                        <button type="button" class="more-button about__button">
-                            <div class="more-button__icon icon icon--more"></div>
-                            Читать далее
-                        </button>
                     </div>
-                    <div class="about__img-wrapper">
-                        <img src="img/_MG_3223.jpg" alt="" class="about__img">
-                    </div>
-                </section>
-            </div>
-        </main>
-    </div>
+                    <button type="button" class="more-button about-company__button" data-show-target="#hidden-about-company">
+                        <div class="more-button__icon icon icon--more"></div>
+                        Читать далее
+                    </button>
+                </div>
+                <div class="about-company__img-wrapper">
+                    <img src="img/_MG_3223.jpg" alt="" class="about-company__img">
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

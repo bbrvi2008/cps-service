@@ -4,43 +4,19 @@
   background-color: #F8F8F8;
 }
 
-.page-content__title {
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: -0.6px;
-  margin: 0;
-  margin-left: -16px;
-  margin-bottom: 24px;
-}
-
-.page-content__title::before {
-  content: '';
-  border-left: 4px solid #41F6D7;
-  margin-right: 12px;
-  border-radius: 0 4px 4px 0;
-}
-
 .page-content__slide-menu {
   margin-bottom: 24px;
 }
 
 @media (min-width: 768px) {
-  .page-content__title {
-    margin-left: -24px;
-  }
-
-  .page-content__title::before {
-    margin-right: 20px;
+  .page-content {
+    padding-bottom: 40px;
   }
 }
 
 @media (min-width: 1120px) {
-  .page-content__title {
-    margin-left: -34px;
-  }
-
-  .page-content__title::before {
-    margin-right: 30px;
-    border-radius: 2px;
+  .page-content {
+    padding-top: 42px;
+    padding-bottom: 50px;
   }
 }
