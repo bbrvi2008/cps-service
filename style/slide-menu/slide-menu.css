@@ -1,14 +1,18 @@
 .slide-menu {
+  position: relative;
   margin-right: -16px;
-  display: flex;
+  overflow: hidden;
 }
 
 .slide-menu:after {
   content: '';
+  position: absolute;
+  height: 40px;
   width: 24px;
   background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
-  flex-shrink: 0;
   z-index: 1;
+  top: 0;
+  right: 0;
 }
 
 .slide-menu__inner {
