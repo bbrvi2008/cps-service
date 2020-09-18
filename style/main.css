@@ -1,0 +1,70 @@
+@import url('normalize.css') screen;
+@import url('page-header/page-header.css') screen;
+@import url('icon/icon.css') screen;
+@import url('button/button.css') screen;
+@import url('more-button/more-button.css') screen;
+@import url('logo/logo.css') screen;
+@import url('page-content/page-content.css') screen;
+@import url('slide-menu/slide-menu.css') screen;
+@import url('about/about.css') screen;
+
+@font-face {
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/TTLakes-Regular.eot'),
+        url('../fonts/TTLakes-Regular.ttf'), 
+        url('../fonts/TTLakes-Regular.woff');
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/TTLakes-Medium.eot'),
+        url('../fonts/TTLakes-Medium.ttf'), 
+        url('../fonts/TTLakes-Medium.woff');
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/TTLakes-Bold.eot'),
+        url('../fonts/TTLakes-Bold.ttf'), 
+        url('../fonts/TTLakes-Bold.woff');
+}
+
+html {
+    font-family: 'TT Lakes', sans-serif;
+    color: #1B1C21;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+
+.content-wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+    .content-wrapper {
+        padding: 0 24px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .content-wrapper {
+        padding: 0 34px;
+    }
+}
