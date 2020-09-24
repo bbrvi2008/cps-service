@@ -5,6 +5,10 @@
   white-space: nowrap;
 }
 
+.link:hover {
+  color: #7E7E82;
+}
+
 .link--active {
   color: #7E7E82;
 }

@@ -4,14 +4,26 @@
     padding: 0 16px;
 }
 
+.content-wrapper__slide-menu {
+  margin-right: -16px;
+}
+
 @media (min-width: 768px) {
     .content-wrapper {
         padding: 0 24px;
+    }
+
+    .content-wrapper__slide-menu {
+        margin-right: -24px;
     }
 }
 
 @media (min-width: 1120px) {
     .content-wrapper {
         padding: 0 34px;
+    }
+
+    .content-wrapper__slide-menu {
+        margin-right: 0;
     }
 }

@@ -1,6 +1,5 @@
 .slide-menu {
   position: relative;
-  margin-right: -16px;
   overflow: hidden;
 }
 
@@ -57,20 +56,12 @@
 }
 
 @media (min-width: 768px) {
-  .slide-menu {
-    margin-right: -24px;
-  }
-
   .slide-menu__inner::after {
     width: 24px;
   }
 } 
 
 @media (min-width: 1120px) {
-  .slide-menu {
-    margin-right: 0;
-  }
-
   .slide-menu__inner::after {
     display: none;
   }

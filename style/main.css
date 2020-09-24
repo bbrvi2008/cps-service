@@ -1,4 +1,3 @@
-@import url('normalize.css') screen;
 @import url('menu/menu.css') screen;
 @import url('link/link.css') screen;
 @import url('content-wrapper/content-wrapper.css') screen;
@@ -8,7 +7,7 @@
 @import url('more-button/more-button.css') screen;
 @import url('logo/logo.css') screen;
 @import url('page-content/page-content.css') screen;
-@import url('page-content-header/page-content-header.css') screen;
+@import url('content-header/content-header.css') screen;
 @import url('slide-menu/slide-menu.css') screen;
 @import url('about-company/about-company.css') screen;
 @import url('dislpay/display.css') screen;
