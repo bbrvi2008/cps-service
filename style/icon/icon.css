@@ -1,42 +1,43 @@
-.icon {
+.icon::after {
+  content: '';
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.icon--menu {
+.icon--menu::after {
   background-image: url('../../img/icons/menu.svg');
 }
 
-.icon--phone {
+.icon--phone::after {
   background-image: url('../../img/icons/phone.svg');
 }
 
-.icon--message {
+.icon--message::after {
   background-image: url('../../img/icons/message.svg');
 }
 
-.icon--people {
+.icon--people::after {
   background-image: url('../../img/icons/people.svg');
 }
 
-.icon--order {
+.icon--order::after {
   background-image: url('../../img/icons/order.svg');
 }
 
-.icon--status {
+.icon--status::after {
   background-image: url('../../img/icons/status.svg');
 }
 
-.icon--more {
+.icon--more::after {
   background-image: url('../../img/icons/more.svg');
 }
 
-.icon--search {
+.icon--search::after {
   background-image: url('../../img/icons/search.svg');
 }
 
-.icon--close {
+.icon--close::after {
   background-image: url('../../img/icons/close.svg');
 }

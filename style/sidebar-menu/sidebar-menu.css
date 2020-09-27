@@ -1,0 +1,31 @@
+.sidebar-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-menu__item:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.sidebar-menu__item--active {
+  position: relative;
+}
+
+.sidebar-menu__item--active::before {
+  content: '';
+  display: block;
+  height: 32px;
+  border-left: 4px solid #41F6D7;
+  border-radius: 0 4px 4px 0;
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+  .sidebar-menu__item--active::before {
+    left: -24px;
+  }
+}

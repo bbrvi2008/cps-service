@@ -12,6 +12,7 @@
 @import url('about-company/about-company.css') screen;
 @import url('dislpay/display.css') screen;
 @import url('sidebar/sidebar.css') screen;
+@import url('sidebar-menu/sidebar-menu.css') screen;
 
 @font-face {
     font-family: 'TT Lakes';
