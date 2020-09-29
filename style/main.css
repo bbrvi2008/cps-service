@@ -15,10 +15,10 @@
 @import url('sidebar-menu/sidebar-menu.css') screen;
 
 @import url('brands/brands.css') screen;
-@import url('brands/__title/brands__title.css') screen;
-@import url('brands/__list-wrapper/brands__list-wrapper.css') screen;
-@import url('brands/__list/brands__list.css') screen;
-@import url('brands/__col/brands__col.css') screen;
+@import url('brands/title/brands__title.css') screen;
+@import url('brands/list-wrapper/brands__list-wrapper.css') screen;
+@import url('brands/list/brands__list.css') screen;
+@import url('brands/col/brands__col.css') screen;
 
 
 @font-face {
@@ -59,10 +59,4 @@ body {
 
 *, *::after, *::before {
     box-sizing: border-box;
-}
-
-
-.page {
-    display: flex;
-    flex-direction: row;
 }
