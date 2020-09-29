@@ -15,7 +15,10 @@
     margin-left: 9px;
     border-radius: 50%;
     z-index: 5;
-    background-color: #FF3E79;
+}
+
+.button__icon:only-child {
+    margin: 0;
 }
 
 .button__icon::after {
@@ -26,7 +29,11 @@
     right: 0;
 }
 
-.button__icon::before {
+.button__icon--background {
+    background-color: #FF3E79;
+}
+
+.button__icon--background::before {
     content: '';
     width: 40px;
     height: 40px;
@@ -40,13 +47,17 @@
     transition: transform ease-out 300ms;
 }
 
-.button:hover .button__icon::before {
+.button:hover .button__icon--background::before {
     transform: scale(1);
 }
 
-.button__icon:only-child {
-    margin: 0;
+.button__icon--border {
+    border: 2px solid #FF3E79;
 }
+
+
+
+
 
 /* .button__icon-wrapper {
     display: inline-block;

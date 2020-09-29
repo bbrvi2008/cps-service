@@ -34,10 +34,19 @@
   background-image: url('../../img/icons/more.svg');
 }
 
+.icon--less::after {
+  background-image: url('../../img/icons/more.svg');
+  transform: rotate(180deg);
+}
+
 .icon--search::after {
   background-image: url('../../img/icons/search.svg');
 }
 
 .icon--close::after {
   background-image: url('../../img/icons/close.svg');
+}
+
+.icon--dropdown::after {
+  background-image: url('../../img/icons/dropdown.svg');
 }

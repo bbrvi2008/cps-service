@@ -1,4 +1,4 @@
-@import url('menu/menu.css') screen;
+@import url('library.blocks/swiper-pagination/swiper-pagination.css') screen;
 @import url('link/link.css') screen;
 @import url('content-wrapper/content-wrapper.css') screen;
 @import url('page-header/page-header.css') screen;
@@ -13,6 +13,13 @@
 @import url('dislpay/display.css') screen;
 @import url('sidebar/sidebar.css') screen;
 @import url('sidebar-menu/sidebar-menu.css') screen;
+
+@import url('brands/brands.css') screen;
+@import url('brands/__title/brands__title.css') screen;
+@import url('brands/__list-wrapper/brands__list-wrapper.css') screen;
+@import url('brands/__list/brands__list.css') screen;
+@import url('brands/__col/brands__col.css') screen;
+
 
 @font-face {
     font-family: 'TT Lakes';
@@ -52,4 +59,10 @@ body {
 
 *, *::after, *::before {
     box-sizing: border-box;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: row;
 }

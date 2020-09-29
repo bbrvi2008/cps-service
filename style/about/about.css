@@ -1,0 +1,40 @@
+.about__description {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.about__button {
+    margin: 16px 0;
+}
+
+.about__img-wrapper {
+    margin: 0 -16px;
+
+}
+
+.about__img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .about {
+        display: flex;
+    }
+
+    .about__description {
+        flex: 0 0 50%;
+        padding-right: 48px;
+    }
+
+    .about__img-wrapper {
+        margin: 0;
+        flex: 0 0 50%;
+    }
+
+    .about__img {
+        border-radius: 6px;
+    }
+}

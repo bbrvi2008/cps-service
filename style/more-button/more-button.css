@@ -11,7 +11,16 @@
 }
 
 .more-button__icon {
+  position: relative;
   width: 24px;
   height: 24px;
   margin-right: 8px;
+}
+
+.more-button__icon::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

@@ -1,0 +1,47 @@
+.brands {
+  padding: 24px 0;
+}
+
+@media (min-width: 768px) {
+  .brands {
+    padding: 32px 0;
+  }
+}
+
+@media (min-width: 1120px) {
+  .brands {
+    padding: 50px 0;
+  }
+}
+
+.brands__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  padding: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+}
+
+.brands__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.brands__img {
+  display: block;
+  max-height: 40px;
+  max-width: 128px;
+  margin-right: auto;
+}
+
+.brands__more-button {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .brands__more-button {
+    display: flex;
+  }
+}
